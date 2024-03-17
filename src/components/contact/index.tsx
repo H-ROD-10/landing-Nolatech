@@ -12,7 +12,7 @@ export const Contact = () => {
           objectFit: "fill",
           zIndex: "-1",
           height: "100%",
-          maxHeight: "800px",
+          maxHeight: "850px",
         }}
       />
       <div className="formFiveCard">
