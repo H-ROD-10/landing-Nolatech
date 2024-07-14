@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+## Proyecto Landing Page Prueba Ténica Nolatech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Descripción
 
-Currently, two official plugins are available:
+Este Proyecto ha sido realizado con Reac, Vite y CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requisitos
 
-## Expanding the ESLint configuration
+- Node.js versión 20 o superior
+- Vite instalado
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Clonación del Repositorio:
 
-- Configure the top-level `parserOptions` property like this:
+Clona el repositorio del proyecto en tu directorio local:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- [git clone ](https://github.com/H-ROD-10/landing-Nolatech)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Instalación de Dependencias:
+
+Accede al directorio del proyecto clonado e instala las dependencias necesarias:
+npm install
+
+## Configuración de Variables de Entorno:
+
+En este proyecto no se requirió la implementación de variables de entorno.
+
+## Ejecución
+
+Inicio del Servidor de Desarrollo:
+
+Inicia el servidor de desarrollo utilizando el siguiente comando:
+
+- npm run dev
+
+El servidor se iniciará en el puerto 5173 por defecto.
+
+## Contribuciones
+
+Se agradecen las contribuciones a este proyecto. Si deseas realizar cambios o agregar nuevas funcionalidades, crea una solicitud de extracción (pull request) en el repositorio de GitHub.
