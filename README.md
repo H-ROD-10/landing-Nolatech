@@ -18,7 +18,8 @@ Clona el repositorio del proyecto en tu directorio local:
 ## Instalación de Dependencias:
 
 Accede al directorio del proyecto clonado e instala las dependencias necesarias:
-npm install
+
+- npm install
 
 ## Configuración de Variables de Entorno:
 
