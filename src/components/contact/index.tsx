@@ -36,6 +36,7 @@ export const Contact = () => {
         <button className="btnStandar" style={{ maxWidth: "30%", margin: "2%", fontSize: "18px", padding: "20px 42px" }}>
           I’M IN
         </button>
+
         <p
           style={{ fontSize: "16px", fontWeight: 500, color: "white", margin: "2%", textAlign: "center" }}>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam

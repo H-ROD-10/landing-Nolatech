@@ -9,11 +9,11 @@ export const Gallery = () => {
     <div className="sevenCard">
 
       <h1 style={{ fontSize: "56px", color: "white" }}>Lorem ipsum</h1>
-      <div style={{ display: "flex", gap: "5%" }}>
-        <img src={Pic7} alt="pci" style={{ objectFit: "fill", width: "300px", height: "400px" }} />
-        <img src={Pic8} alt="pci" style={{ objectFit: "fill", width: "300px", height: "400px" }} />
-        <img src={Pic9} alt="pci" style={{ objectFit: "fill", width: "300px", height: "400px" }} />
-        <img src={Pic10} alt="pci" style={{ objectFit: "fill", width: "300px", height: "400px" }} />
+      <div style={{ display: "flex", justifyContent: "center", gap: "5%", marginLeft: "10%" }}>
+        <img src={Pic7} alt="pci" style={{ objectFit: "cover", width: "320px", height: "400px" }} />
+        <img src={Pic8} alt="pci" style={{ objectFit: "cover", width: "320px", height: "400px" }} />
+        <img src={Pic9} alt="pci" style={{ objectFit: "cover", width: "320px", height: "400px" }} />
+        <img src={Pic10} alt="pci" style={{ objectFit: "cover", width: "100px", height: "400px" }} />
       </div>
       <div style={{ display: "flex", marginTop: "2%", justifyContent: "center" }}>
         <i className="fa-solid fa-circle" style={{ color: "white" }}></i>

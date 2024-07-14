@@ -16,7 +16,7 @@ body {
 
 header {
     height: 40px;
-    background-color: green;
+    background-color: #03b044;
 }
 
 header>div {
@@ -148,8 +148,8 @@ nav {
     display: flex;
     flex-direction: row;
     margin-top: 5.5%;
-    height: 75px;
-    background-color: green;
+    height: 174px;
+    background-color: #025923;
 }
 
 .footerContenTextNav {
@@ -163,11 +163,12 @@ nav {
 }
 
 .footerContenTimeNav {
-    padding-left: 26px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 60%;
+    padding-left: 60px;
+    padding-right: 80px;
 }
 
 .blockTime {
@@ -179,8 +180,14 @@ nav {
     align-items: center;
 }
 
+
 .blockTime>span {
     font-size: 26px;
+}
+
+.blockTime> .blockNumber {
+    font-size: 56px;
+    font-weight: bold;
 }
 
 .blockTitle {
@@ -189,39 +196,42 @@ nav {
 }
 
 .divider {
-    height: 45px;
-    border-top: 3px solid #bbb;
+    margin-top: 30px;
+    height: 100px;
+    border: 1px solid #03b045d8 !important;
 }
 
 .blockSpan {
-    color: #3FFA53 !important;
+    color: #03b044 !important;
 }
 
 .firtsCard {
-    margin-top: 5%;
+    padding-top: 160px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
 .textFirst {
-    width: 48%;
+    width: 50%;
     padding-left: 25px;
     padding-right: 25px;
 }
 
 .textFirst>h1 {
-    font-size: 56px;
+    font-size: 46px;
 }
 
 .textFirst>p {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .imageFirstCard {
     object-fit: cover;
-    width: 38%;
+    width: 480px;
+    height: 460px;
 }
 
 .secondCard {
@@ -274,6 +284,7 @@ nav {
     color: black;
     font-size: 16px;
     font-weight: bold;
+    background-color: #f5f6fa;
 
 }
 
@@ -413,10 +424,13 @@ nav {
 .formFiveCard {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-top: 5%;
     width: 50%;
     height: 100%;
     gap: 5%;
+    padding-right: 20px;
+    padding-left: 5%;
 }
 
 .inputFormBasic {
@@ -448,6 +462,7 @@ nav {
     background-image: url('./assets/bg.png');
     background-position: center;
     min-height: 700px;
+    width: 91%;
 }
 
 .sevenCard img {
